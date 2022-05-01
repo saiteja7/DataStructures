@@ -10,7 +10,7 @@ public class BestTimeToBuyStock {
 	}
 	
 	   public static int maxProfitSum(int[] prices) {
-		   
+	
 		   int profit=0;
 		   
 		   for(int i=1;i<prices.length;i++) {

@@ -10,5 +10,4 @@ public class DoublyNode {
 		this.next = null;
 		this.prev=null;
 	}
-
 }

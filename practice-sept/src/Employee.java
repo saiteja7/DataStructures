@@ -29,6 +29,11 @@ public class Employee {
 		
 		
 	}
+	
+	public double getSalary() {
+		return this.salary;
+		
+	}
 	private String calculateInsurance(double salarys) {
 		
 		if(salary>5000 && salary <20000) {

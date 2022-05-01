@@ -1,5 +1,7 @@
 
 public class RainWaterTrap {
+	
+	//save max height from starting and ending in two arrays.
 
 	
 	public static void main(String[] args) {
@@ -24,6 +26,7 @@ public class RainWaterTrap {
 		
 		int ans=0;
 		for(int i =0;i<n;i++) {
+			//The max water which can be stores is the min of last height building and the next height building and minus the current heigh
 			ans+=(Math.min(left[i], right[i])-a[i]);
 		}
 		return ans; 
